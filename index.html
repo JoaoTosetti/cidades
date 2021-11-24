@@ -8,6 +8,8 @@
     <title>Cidades - Londres</title>
     <link rel="shortcut icon" href="icone-city.png" type="image/x-icon">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
         #cabecalho {
             height: 200px;
             background-color: #c4c4c4;
@@ -16,10 +18,11 @@
         #menu-de-navegacao {
             height: 70px;
             background-color: #A39D9D;
+            text-align: center;
         }
 
         #conteudo-principal {
-            height: 730px;
+            height: 750px;
             background-color: #898989;
         }
 
@@ -27,15 +30,41 @@
             height: 150px;
             background-color: #5F5B5B;
         }
+
+        #titulo {
+            font-size: 64px;
+            font-weight: 500;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            text-transform: uppercase;
+            color: #00C2FF;
+        }
+
+        .item-menu {
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 16px;
+            color: #00FFF0;
+        }
+
     </style>
 </head>
 
 <body>
 
-    <div id="cabecalho"></div>
-    <div id="menu-de-navegacao"></div>
-    <div id="conteudo-principal"></div>
-    <div id="rodape"></div>
+    <header id="cabecalho">
+        <h1 id="titulo">Cidades</h1>
+    </header>
+
+    <nav id="menu-de-navegacao">
+        <a href="index.html" class="item-menu">LONDRES</a>
+        <a href="paris.html" class="item-menu">PARIS</a>
+        <a href="tokyo.html" class="item-menu">TOKYO</a>
+    </nav>
+
+    <main id="conteudo-principal"></main>
+
+    <footer id="rodape"></footer>
 
 </body>
 
