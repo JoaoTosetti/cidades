@@ -6,10 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cidades - Londres</title>
-    <link rel="shortcut icon" href="icone-city.png" type="image/x-icon">
+    <link rel="shortcut icon" href="fotos/icone-city.png" type="image/x-icon">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
         #cabecalho {
             height: 200px;
             background-color: #c4c4c4;
@@ -22,7 +21,7 @@
         }
 
         #conteudo-principal {
-            height: 750px;
+            height: auto;
             background-color: #898989;
         }
 
@@ -47,13 +46,33 @@
             color: #00FFF0;
         }
 
+        .subtitulo {
+            font-size: 40px;
+            font-weight: 600;
+            font-family: 'Poppins';
+            color: #00C2FF;
+        }
+
+        .texto-comum {
+            font-size: 14px;
+            font-weight: 300;
+            font-family: 'Open Sans';
+        }
+
+        .creditos {
+            font-size: 12px;
+            font-family: 'Poppins';
+            text-align: center;
+        }
     </style>
 </head>
 
 <body>
 
     <header id="cabecalho">
+
         <h1 id="titulo">Cidades</h1>
+
     </header>
 
     <nav id="menu-de-navegacao">
@@ -62,9 +81,36 @@
         <a href="tokyo.html" class="item-menu">TOKYO</a>
     </nav>
 
-    <main id="conteudo-principal"></main>
+    <main id="conteudo-principal">
 
-    <footer id="rodape"></footer>
+        <h2 class="subtitulo">LONDRES</h2>
+        <video width="600" controls>
+            <source src="videos/video-londres.mp4" type="video/mp4">
+        </video>
+
+        <p class="texto-comum">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt placerat erat, in maximus urna ultricies dictum. Maecenas sem dui, faucibus ut ultricies id, convallis quis tellus. Suspendisse at lacus eu dolor bibendum ornare id ac dui. Nulla consectetur erat in magna semper aliquam. Suspendisse potenti. Mauris nisi odio, lacinia et ligula vel, lobortis elementum velit. Praesent ac pulvinar elit. Aliquam rhoncus aliquam ex, ut cursus leo feugiat non. Pellentesque vulputate ullamcorper elit, vitae sollicitudin odio dignissim eu. In nibh sem, rhoncus sit amet nulla et, maximus pulvinar leo.
+
+        </p>
+
+        <p class="texto-comum">
+            Quisque eu ipsum in lorem hendrerit lacinia in sed nisl. Nam porttitor vestibulum faucibus. Nulla nisl velit, sodales ac semper quis, fringilla id tellus. Donec ut lectus et sem laoreet aliquet. Donec congue, eros eu eleifend luctus, eros ante elementum ex, tempus feugiat neque neque id turpis. Aenean quis imperdiet justo. Integer molestie, erat vitae fringilla cursus, arcu odio placerat leo, vel consequat quam felis quis massa. Vivamus faucibus, velit sed fringilla rutrum, justo purus fermentum lectus, sed consectetur purus leo sit amet eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec vestibulum sem non odio sodales commodo. Aenean imperdiet, nisi semper ultrices accumsan, augue libero lobortis tortor, non laoreet erat arcu quis quam. Maecenas eget luctus odio.
+
+        </p>
+
+        <p class="texto-comum">
+            Curabitur massa dui, iaculis eget pulvinar in, sollicitudin vel magna. Proin id nunc nibh. Cras efficitur congue nulla et posuere. Duis eu volutpat urna. Praesent sagittis tortor eget aliquam fermentum. Nam sit amet ligula fringilla, facilisis turpis a, sollicitudin sem. In hac habitasse platea dictumst. Donec euismod, lorem sed bibendum pulvinar, diam nulla dignissim tellus, non efficitur augue odio vel nulla. Fusce varius libero ac rhoncus viverra. Vivamus congue pulvinar velit in pharetra.
+        </p>
+
+        <img src="fotos/foto-tamisa.jpg" alt="imagem do rio tâmisa" width="500">
+
+    </main>
+
+    <footer id="rodape">
+        <p class="creditos">
+            Desenvolvido por João Tosetti. &reg; Todos os direitos reservados. 2022
+        </p>
+    </footer>
 
 </body>
 
